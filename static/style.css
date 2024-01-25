@@ -1,0 +1,57 @@
+body{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+
+    background: #121212;
+}
+
+section{
+    margin: 0 auto;
+    width: 750px;
+
+}
+
+h2, p{
+    text-align: center;
+    color: #5e5e5e;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+header p{
+    transform: translateY(-25px)
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    border: 1px solid #5e5e5e;
+    width: 750px;
+}
+
+.examples p{
+    font-size: 1.5em;
+}
+
+.code{
+    text-align: center;
+    color: #999;
+}
+
+#requests-example{
+    margin: 0 auto;
+    position: absolute;
+    justify-content: center;
+    background: #333333;
+    width: 740px;
+    border-left: 7px solid #272727;
+    padding: 10px 0 10px 5px;
+}
